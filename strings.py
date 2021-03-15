@@ -22,3 +22,8 @@ first_name = "fahad"
 last_name = "aleem"
 full_name = f'{first_name} {last_name}'
 print(full_name)
+
+
+
+sliced_name = full_name[1:-1]
+print(sliced_name)
