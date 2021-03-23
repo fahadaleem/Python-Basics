@@ -25,3 +25,11 @@ for item in range(1,9):
 print("for Loop with Step in range:")
 for item in range(1,10, 2):
     print(item)
+
+## exercise:
+## print the sum of [10,20,30]
+print("Exercise:")
+sum = 0
+for i in [10,20,30]:
+    sum += i
+print(f"total sum is: {sum} ") 
